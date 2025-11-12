@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(270deg, #172224d4, #0072ff, #f72fed13, #5fea0f);
+  background-size: 800% 800%;
+  animation: bgMove 10s ease infinite;
+  text-align: center;
+  padding: 50px;
+  color: white;
+}
+
+@keyframes bgMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+form {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 20px;
+  border-right: 20px;
+  width: 300px;
+  margin: auto;
+}
+  
+
+label {
+  display: block;
+  text-align: left;
+  margin: 12px 0 5px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 18px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+button {
+  background: #0871cd;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0072ff;
+}
